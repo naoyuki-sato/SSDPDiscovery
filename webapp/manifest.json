@@ -6,14 +6,14 @@
   "minimum_chrome_version": "23",
   "app": {
     "background": {
-      "scripts": ["main.js"]
-    }
+    "scripts": ["main.js"]
+   }
   },
   "permissions": [
     "experimental",
     {"socket": [
-      "udp-bind",
-      "udp-send-to"
+    "udp-bind",
+    "udp-send-to"
     ]}
   ]
 }
