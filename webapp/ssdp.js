@@ -55,6 +55,7 @@ var recieveData = function(socket, sid)
 
         var dt = new Date();
         var tmp = dt + "<br>";
+        tmp += recv.address + ":" + recv.port + "<br>";
         tmp += data.replace(/"\r\n"/g, "<br>") + "<br><br>";
 
         tmp += ssdpData;
