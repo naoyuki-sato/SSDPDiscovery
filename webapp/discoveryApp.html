@@ -1,0 +1,61 @@
+<html>
+<head>
+	<title>UPnP Discovery</title>
+	<script src="discoveryApp.js"></script>
+	<style type="text/css">
+	#json-message {
+		width: 100%;
+		height: 50px;
+		background-color: #fff;
+		border: 1px solid #aaa;
+		overflow: scroll;
+		font-size: smaller;
+	}
+	#json-response {
+		width: 100%;
+		height: 50px;
+		background-color: #fff;
+		border: 1px solid #aaa;
+		overflow: scroll;
+		font-size: smaller;
+	}
+	</style>
+</head>
+<body>
+  <table>
+    <caption>Search Type</caption>
+    <tr>
+      <td>Search Type:</td>
+      <td>
+        <select id="search-type-st" >
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        <input id="search-type-in" size=30>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+		  <input id="search-bt" type="button" value="Search">
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <table>
+    <tr>
+      <td>UUID List:</td>
+      <td>
+        <select id="uuid-list-st" >
+        </select>
+      </td>
+    </tr>
+  </table>
+ 
+  <hr>
+  <hr>
+</body>
+</html>
